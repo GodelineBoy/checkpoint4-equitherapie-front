@@ -1,0 +1,14 @@
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.card {
+    border-radius: 10px;
+}
+
+.card-img-top {
+    height: 200px;
+    border-radius: 10px;
+}
