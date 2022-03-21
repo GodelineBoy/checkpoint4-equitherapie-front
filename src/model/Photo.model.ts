@@ -1,14 +1,14 @@
 export class Photo {
-
     private _id: number;
     private _src: string;
 
-    constructor(id: number, src: string) {
+    constructor(id: number, src:string) {
         this._id = id;
         this._src = src;
     }
 
-     /**
+
+    /**
      * Getter id
      * @return {number}
      */
@@ -39,4 +39,6 @@ export class Photo {
 	public set src(value: string) {
 		this._src = value;
 	}
+    
 }
+

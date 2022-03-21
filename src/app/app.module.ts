@@ -15,6 +15,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { ConfirmationModalComponent } from './confirmation-modal/confirmation-modal.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { AdminFormComponent } from './admin-form/admin-form.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { HttpClientModule } from '@angular/common/http';
     TherapeuteComponent,
     AdminComponent,
     NavbarComponent,
-    ConfirmationModalComponent
+    ConfirmationModalComponent,
+    AdminFormComponent
   ],
   imports: [
     BrowserModule,

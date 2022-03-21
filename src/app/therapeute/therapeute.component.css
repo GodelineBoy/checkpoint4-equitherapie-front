@@ -1,8 +1,14 @@
-
+h6 {
+    font-size: 18px;
+    text-align: center;
+    margin: 30px;
+    color: #ffb727;
+}
 .row {
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 22%;
+    background-color: gray;
 }
 .card {
     border-radius: 10px;
@@ -11,4 +17,27 @@
 .card-img-top {
     height: 200px;
     border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    
+    h6 {
+        font-size: 24px;
+        text-align: center;
+        margin: 30px;
+        color: #ffb727;
+    }
+    .row {
+        background-color: gray;
+        margin-top: 80px;
+    }
+
+    .card {
+        border-radius: 10px;
+    }
+    
+    .card-img-top {
+        height: 200px;
+        border-radius: 10px;
+    }
 }

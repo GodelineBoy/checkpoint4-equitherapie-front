@@ -1,0 +1,52 @@
+<div class="container">
+   
+  <div class="d-flex align-items-center justify-content-between">
+      <div class="col-3 col-sm-2 col-lg-1 mt-3">
+        <h1>Gestion des Therapeutes</h1>
+        <button class="buttonCreate" type="button" (click)="createTherapeute()">Créer un nouveau Thérapeute</button>
+      </div>
+  </div>  
+  <div class="row mt-4">
+    <div class="input col-md-6">
+    <div class="d-flex justify-content-between align-items-center cardStyle p-2 mb-2" *ngFor= "let therapeute of therapeutes">
+
+      <div class="card">
+        <div class="card-body">
+            <p class="card-text">{{therapeute.photo.src}}</p>
+          </div>
+          <div class="card-body">
+            <p class="card-text">{{therapeute.nom}}</p>
+          </div>
+          <div class="card-body">
+            <p class="card-text">{{therapeute.description}}</p>
+          </div>   
+        </div>
+       
+  
+        <div class="button d-flex justify-content-center m-2">
+          <button
+            class="deleteBtn"
+            data-toggle="confirmation"
+            mat-icon-button
+            aria-label="delete user button"
+            (click)="deleteTherapeute(therapeute.id)"
+            mar-button
+          >
+            <mat-icon>delete</mat-icon>
+          </button>
+          <button
+            class="editBtn"
+            mat-icon-button
+            aria-label="edit user button"
+            (click)="putTherapeute(therapeute)"
+            mat-button
+          >
+            <mat-icon>edit</mat-icon>
+          </button>
+        </div>
+        </div>
+      </div>
+  </div>
+  </div>
+  
+  

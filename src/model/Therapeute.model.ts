@@ -1,26 +1,28 @@
+
 import { Photo } from "./Photo.model";
 
+
 export class Therapeute {
+    
+    private _id: number;
+    private _photo: Photo;
+    private _nom: string;
+    private _description: string;
 
-private _id: number;
-private _photo: Photo;
-private _nom: string;
-private _description: string;
+    constructor(pid: number,photo: Photo, nom: string, description: string) {
+        
+        this._id = this.id;
+        this._photo = photo;
+        this._nom = nom;
+        this._description = description;
+    }
 
 
-constructor(id: number, photo: Photo, nom: string, description: string) {
-    this._id = id;
-    this._photo = photo;
-    this._nom = nom;
-    this._description = description;
-   
-}
-
- /**
+    /**
      * Getter id
      * @return {number}
     */
-  public get id(): number {
+    public get id(): number {
     return this._id;
     }
     /**
@@ -31,7 +33,8 @@ constructor(id: number, photo: Photo, nom: string, description: string) {
         this._id = value;
     }
 
-      /**
+
+    /**
      * Getter photo
      * @return {Photo}
      */
@@ -46,24 +49,23 @@ constructor(id: number, photo: Photo, nom: string, description: string) {
 	public set photo(value: Photo) {
 		this._photo = value;
 	}
-    
-     /**
+
+    /**
      * Getter nom
      * @return {string}
      */
-	public get nom(): string {
-		return this._nom;
-	}
-
+    public get nom(): string {
+        return this._nom;
+    }
     /**
      * Setter nom
      * @param {string} value
      */
-	public set nom(value: string) {
-		this._nom = value;
-	}
-
-     /**
+    public set nom(value: string) {
+        this._nom = value;
+    }
+    
+    /**
      * Getter description
      * @return {string}
      */
@@ -78,6 +80,6 @@ constructor(id: number, photo: Photo, nom: string, description: string) {
 	public set description(value: string) {
 		this._description = value;
 	}
-  
    
+
 }

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { environment } from 'src/environments/environment';
-import { Therapeute } from 'src/shared/models/models/Therapeute.models';
-import { TherapeuteService } from 'src/shared/models/Service/therapeute.service';
+import { Therapeute } from 'src/model/Therapeute.model';
+import { TherapeuteService } from 'src/service/therapeute.service';
 
 
 @Component({
@@ -11,7 +11,7 @@ import { TherapeuteService } from 'src/shared/models/Service/therapeute.service'
 })
 export class TherapeuteComponent implements OnInit {
 
-  therapeutes!: Therapeute[];
+  therapeutes: Therapeute[];
   urlBack: string = environment.urlBack;
   downloadFile: string = environment.downloadFile;
 
@@ -19,10 +19,11 @@ export class TherapeuteComponent implements OnInit {
     this.therapeutes = [];
    }
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.therapeuteService.getAllTherapeutes().subscribe((therapeutes: Therapeute[]) => {
       this.therapeutes = therapeutes;
     })
+   
       }
 
 }
