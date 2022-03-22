@@ -55,15 +55,15 @@ export class AdminComponent implements OnInit {
     });
     dialogRef.afterClosed().subscribe((dialogResult) => {
       if(dialogResult === true) {
-        this.therapeuteService.getAllTherapeutes().subscribe((therapeute: Therapeute[]) => {
-          this.therapeutes = this.therapeutes;
+        this.therapeuteService.getAllTherapeutes().subscribe((therapeutes: Therapeute[]) => {
+          this.therapeutes = therapeutes;
         });
       }
     });
   }
 
   deleteTherapeute(id: number): void {
-    this.message = `Si vous confirmez cette fiche thérapeute sera définitivement effacée`;
+    this.message = `Si vous confirmez, cette fiche thérapeute sera définitivement effacée`;
 
     const dialogData = new ConfirmationModal(this.message);
     

@@ -1,6 +1,8 @@
 .container {
     background-color: gray;
+    padding-bottom: 5px; 
 }
+
 .carousel-item {
     width: 100%;
     max-height: 300px;
@@ -8,6 +10,7 @@
 }
 
 h6 {
+    
     font-size: 10px;
     color: #ffb727;
     margin-top: 10%;
@@ -22,7 +25,11 @@ p {
 
 
 @media screen and (min-width: 768px) {
-
+    
+    .container {
+        background-color: white;
+        padding-bottom: 5px; 
+    }
 
     .carousel-item {
         width: 100%;
@@ -36,6 +43,12 @@ p {
     
     h6 {
         font-size: 24px;
+        color: gray;
+    }
+
+    p {
+        color: gray;
+        font-size: 17px;
     }
 }
 

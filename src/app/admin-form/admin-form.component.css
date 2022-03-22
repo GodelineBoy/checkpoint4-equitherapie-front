@@ -1,0 +1,43 @@
+.header {
+    border-bottom: 2px solid #ffb727;
+    margin-bottom: 1em;
+}
+.footer {
+    border-top: 2px solid #ffb727;
+    padding-top: 1em;
+    margin-top: 10%;
+}
+
+.form {
+    font-size: 20px; 
+    margin-top: 20px;
+    color: gray;
+}
+
+.inputDuo {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+input{
+    height: 30px;
+    margin-top: 5px;
+}
+textarea{
+    height: 100px;
+    margin-top: 5px;
+}
+.btn-outline-danger {
+    margin-top: 5px;
+    height:50px;
+    border-radius: 5px;
+    background-color: #ffb727; 
+    color: gray !important;
+    border: 1px solid #ffb727;
+}
+h2 {
+    color: gray;
+}
+button {
+    margin-top: 10px;
+}

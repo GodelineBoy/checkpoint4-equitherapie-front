@@ -35,6 +35,7 @@ export class AdminFormComponent implements OnInit {
       this.therapeutePhotoPreview = null;
 
       this.editForm = this.fb.group({
+        photo: [null],
         nom: [data.nom || ''],
         description: [data.description || ''],
         }
@@ -86,9 +87,6 @@ export class AdminFormComponent implements OnInit {
            this.formData.set('photo', this.file);
          }
          
-          console.log(this.therapeute);
-          console.log(this.therapeuteId);
-
           if(this.therapeuteId) {
             this.therapeuteService.putTherapeute(this.therapeuteId, this.formData).subscribe();
           } 
