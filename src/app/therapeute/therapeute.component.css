@@ -32,11 +32,10 @@ h6 {
     h6 {
         font-size: 24px;
         text-align: center;
-        margin: 30px;
         color: gray;
     }
     .row {
-        margin-top: 80px;
+        margin-top: 130px;
     }
 
     .card {
