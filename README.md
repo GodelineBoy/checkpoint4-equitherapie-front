@@ -2,26 +2,78 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
 
-## Development server
+## About The Project
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Built With
 
-## Build
+- [Angular](https://angular.io/)
+- [Bootstrap](https://getbootstrap.com)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Running unit tests
+<!-- GETTING STARTED -->
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Getting Started
 
-## Running end-to-end tests
+To get a local copy up and running follow these steps.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Prerequisites
 
-## Further help
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone git@github.com:GodelineBoy/checkpoint4-equitherapie-front.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Launch application on localhost
+
+   ```sh
+   ng s -o
+   ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- USAGE EXAMPLES -->
+
+## Usage
+
+checkPoint 4 - site sur l'équithérapie
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ROADMAP -->
+
+## Roadmap for next features
+
+- [ ] Admin back office
+- [ ] User authentification
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+Godeline BOY - [LinkedIn](https://www.linkedin.com/in/godeline-boy-1a2a4145/) - [GitHub](https://github.com/GodelineBoy)<br>
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[product-screenshot]: src/assets/homepageScreenshot.png
