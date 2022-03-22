@@ -2,11 +2,10 @@
     img{
         width: 80px;
         height: 80px;
-        border-radius: 50%;
-    
+        border-radius: 50%;       
     }
     .buttonCreate {
-        width: 10px;
+        width: 200px;
         height:50px;
         border-radius: 5px;
         margin-left: 10px;
@@ -20,15 +19,16 @@
         text-align: justify;
         border-top: 2px solid #ffb727;
         padding-top: 8px;
+        font-size: 12px;
     }
     .card-nom {
         text-align: center;
         font-style: italic;
-        font-size: 20px;
+        font-size: 17px;
        
     }
-
 }
+
 #hero {
     width: 100%;
     background: url("/assets/img/fondImg.jpg") top right;
@@ -49,8 +49,7 @@
 .card {
     margin: 10px;
     border-radius: 5px;
-    font-size: 17px;
-
+   
 }
 .deleteBtn, .editBtn {
     color: white;
