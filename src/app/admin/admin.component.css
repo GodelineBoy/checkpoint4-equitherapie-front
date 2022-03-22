@@ -1,33 +1,4 @@
-@media screen and (max-width: 768px){
-    img{
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;       
-    }
-    .buttonCreate {
-        width: 200px;
-        height:50px;
-        border-radius: 5px;
-        margin-left: 10px;
-        margin-top: 95px;
-        background-color: #ffb727; 
-        color: rgb(82, 77, 77);
-        z-index: 1;
-        font-size: 17px;
-    }
-    .card-text {
-        text-align: justify;
-        border-top: 2px solid #ffb727;
-        padding-top: 8px;
-        font-size: 12px;
-    }
-    .card-nom {
-        text-align: center;
-        font-style: italic;
-        font-size: 17px;
-       
-    }
-}
+
 
 #hero {
     width: 100%;
@@ -69,7 +40,7 @@
 img{
     width: 80px;
     height: 80px;
-    margin-left: 130px;
+
     border-radius: 50%;
 }
 .card-text {
@@ -82,4 +53,34 @@ img{
     font-style: italic;
     font-size: 20px;
    
+}
+@media screen and (max-width: 768px){
+    img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;       
+    }
+    .buttonCreate {
+        width: 200px;
+        height:50px;
+        border-radius: 5px;
+        margin-left: 10px;
+        margin-top: 95px;
+        background-color: #ffb727; 
+        color: rgb(82, 77, 77);
+        z-index: 1;
+        font-size: 17px;
+    }
+    .card-text {
+        text-align: justify;
+        border-top: 2px solid #ffb727;
+        padding-top: 8px;
+        font-size: 12px;
+    }
+    .card-nom {
+        text-align: center;
+        font-style: italic;
+        font-size: 17px;
+       
+    }
 }
