@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AdminFormComponent } from './admin-form/admin-form.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +28,8 @@ import { AdminFormComponent } from './admin-form/admin-form.component';
     AdminComponent,
     NavbarComponent,
     ConfirmationModalComponent,
-    AdminFormComponent
+    AdminFormComponent,
+ 
   ],
   imports: [
     BrowserModule,
